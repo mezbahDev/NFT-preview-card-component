@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>NFT preview card component</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
+</head>
+
+<body class="bg-[#0C1A2C] flex items-center justify-center min-h-screen font-['opensans']">
+
+  <div
+    class="w-[23rem] sm:w-[376px] bg-[#14253D] text-white rounded-2xl p-[1.5rem] flex flex-col gap-[1.5rem] my-[3rem]">
+
+    <div class="relative w-full rounded-lg overflow-hidden group cursor-pointer">
+      <img src=" ./images/image-equilibrium.jpg" alt="" class="w-[100%] rounded-lg" />
+      <div
+        class="absolute inset-0 bg-[#00FFF8] bg-opacity-40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+        <img src="./images/icon-view.svg" alt="View Icon" class="h-10 w-10" />
+      </div>
+    </div>
+
+    <p class="font-[800] text-[1.5rem] hover:text-[#00FFF8] cursor-pointer">Equilibrium #3429</p>
+    <p class="text-[#8BACDA] text-[1.2rem]">Our Equilibrium collection promotes balance and calm.</p>
+
+    <div class="flex justify-between text-[1.1rem] font-[]">
+
+      <div class="flex gap-[0.5rem] items-center">
+        <img src="/images/icon-ethereum.svg" alt="" class="h-[1.2rem]" />
+        <p class="text-[#00FFF8]">0.041ETH</p>
+      </div>
+
+      <div class="flex gap-[0.4rem] items-center">
+        <img src="/images/icon-clock.svg" alt="" class="h-[1rem]" />
+        <p class="text-[#8BACDA]">3 days left</p>
+      </div>
+
+    </div>
+
+    <div class="border-b border-b-[#2E405A]"></div>
+
+    <div class="flex gap-[1rem] items-center text-[#8BACDA] text-[1.1rem]">
+      <img src="/images/image-avatar.png" alt="" class="h-[2rem] w-[2rem] border-[1px] border-white rounded-full" />
+      <p>Creation of <span class="text-[#ffff] hover:text-[#00FFF8] cursor-pointer">Jules Wyvern</span></p>
+    </div>
+  </div>
+
+</body>
+
+</html>
